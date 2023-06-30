@@ -9,6 +9,7 @@ function Header(props) {
     })
       .then((response) => {
         props.token();
+        // add remove token()
       })
       .catch((error) => {
         if (error.response) {
